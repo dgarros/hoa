@@ -26,6 +26,9 @@ print Dumper \%INC;
 print ' -------- Dumper My::Tool::get_coderefs_href( QuickLogging ) ------------ '."\n";  
 print Dumper My::Tool::get_coderefs_href( 'QuickLogging' );
 
+print ' -------- Dumper \@ARGS ------------ '."\n";  
+print Dumper \@ARGS;
+
 exit;
 
 
