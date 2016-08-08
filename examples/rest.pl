@@ -9,7 +9,7 @@ use JSON;
  # Set the request parameters
  my $host = 'http://10.94.196.96:12900';
  my $user = 'admin';
- my $pwd = 'Embe1mpls';
+ my $pwd = 'Juniper';
  my $headers = {Accept => 'application/json', Authorization => 'Basic ' . encode_base64($user . ':' . $pwd)};
 
  
